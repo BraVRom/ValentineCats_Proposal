@@ -1,8 +1,11 @@
 # ValentineCats_Proposal
 
-This is a web project I made in a short time for a Valentine's Day proposal. I don't think it's that spectacular, but my girlfriend loved the gesture, and it made her laugh. Obviously, she said yes. 😄
 
+
+This is a web project I made in a short time for a Valentine's Day proposal. I don't think it's that spectacular, but my girlfriend loved the gesture, and it made her laugh. Obviously, she said yes. 😄
 The project is interactive and fun, featuring cute cat gifs. The user is asked a cute Valentine's question, and if they select "Yes," cute animations, music and messages appear. If they select "No," there are funny interactions that make it harder to say no! 😆
+
+<img src="images/1.png" alt="Imagen 1" width="520" />
 
 🚀 **Features**
 
@@ -19,6 +22,9 @@ ___________________________
 📁 `project-folder/`  
 ├── 📁 `css/`  
 │   ├── `style.css`  # Styling for the page  
+├── 📁 `images/` # Just previews for the readme  
+│   ├── `1.png`  # Image 1  
+│   ├── `2.png`  # Image 2  
 ├── 📁 `js/`  
 │   ├── `script.js`  # Interactive button behavior  
 ├── 📁 `media/`  
@@ -47,6 +53,8 @@ ___________________________
 
 Enjoy the interactive Valentine's proposal! 🎉
 
+<img src="images/2.png" alt="Imagen 2" width="520" />
 ___________________________
+
 
 I created this in a short time, so there might be some responsiveness issues on smaller screens like mobile devices, but it works fine on most other sizes. Feel free to fork it and make improvements!

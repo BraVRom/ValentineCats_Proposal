@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #ffc4ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+#question {
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    color: #D72638;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    min-width: 140px;
+    text-align: center;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 24px;
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: #ff57ab;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #D72638;
+    transform: scale(1.1);
+}
+
+#yes-button {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#no-button {
+    background-color: #ff4444;
+    color: white;
+}
+
+#yes-button:hover {
+    background-color: #ff85c1;
+}
+
+#no-button:hover {
+    background-color: #ff6666;
+}
+
+#gif-center {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#gif-left, #gif-right {
+    display: none;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    max-width: 150px;
+}
+
+#gif-left {
+    left: 5%;
+}
+
+#gif-right {
+    right: 5%;
+}
+
+@media (max-width: 768px) {
+    #gif-left, #gif-right {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    #gif-left, #gif-right {
+        display: none;
+    }
+}
+

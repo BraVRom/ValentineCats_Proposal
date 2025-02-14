@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be my Valentine?</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="question">Would you like to be my Valentine? 💖</div>
+        <div id="buttons">
+            <button id="yes-button" onclick="selectOption('yes')">Of course! ❤️</button>
+            <button id="no-button" onclick="selectOption('no')">No 😦</button>
+        </div>
+    </div>
+    
+    <audio id="meme-audio" src="./media/meme.mp3"></audio>
+
+    <!-- GIF that appears during the animation -->
+    <div id="gif-center">
+        <img src="./media/cat.gif" alt="Cute Cat">
+    </div>
+
+    <!-- Jumping cat GIFs that appear on the sides after saying "Happy Valentine's Day" -->
+    <div id="gif-left">
+        <img src="./media/cat-jump.gif" alt="Jumping Cat">
+    </div>
+
+    <div id="gif-right">
+        <img src="./media/cat-jump.gif" alt="Jumping Cat">
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

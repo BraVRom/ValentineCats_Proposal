@@ -47,7 +47,7 @@ ___________________________
 📜 **How to Use**
 
 1. Clone this repository:  
-   `git clone https://github.com/yourusername/ValentineCats_Proposal.git`
+   `git clone https://github.com/BraVRom/ValentineCats_Proposal.git`
    
 2. Open `index.html` in your browser.
 
